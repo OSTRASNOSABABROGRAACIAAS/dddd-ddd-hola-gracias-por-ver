@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>RodriX Unblocked Games</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1 { margin-bottom: 20px; color: #ffcc00; }
+        .contenedor-juego {
+            width: 100%;
+            max-width: 600px;
+            height: 550px;
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.7);
+        }
+    </style>
+    <!-- Cargamos Ruffle de forma nativa sin bloqueos -->
+    <script src="https://unpkg.com"></script>
+</head>
+<body>
+
+    <h1>RodriX Unblocked Games 🎮</h1>
+
+    <div class="contenedor-juego">
+        <!-- Reemplaza 'https://github.com/OSTRASNOSABABROGRAACIAAS/dddd-ddd-hola-gracias-por-ver/blob/main/papaspizzeria_v2.swf' por el nombre exacto de tu archivo subido -->
+        <object data="https://github.com/OSTRASNOSABABROGRAACIAAS/dddd-ddd-hola-gracias-por-ver/blob/main/papaspizzeria_v2.swf" width="100%" height="100%">
+            <param name="movie" value="pizzeria.swf">
+            <param name="autoplay" value="true">
+        </object>
+    </div>
+
+</body>
+</html>
